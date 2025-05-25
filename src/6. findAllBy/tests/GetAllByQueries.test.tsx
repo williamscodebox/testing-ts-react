@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import FindAllByQueries from "../../src/components/findAllByQueries";
+import FindAllByQueries from "../components/findAllByQueries";
 
 describe("TestComponent", () => {
   beforeEach(() => {

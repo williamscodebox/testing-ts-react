@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import QueryByQueries from "../../src/components/QueryByQueries";
+import QueryByQueries from "../components/QueryByQueries";
 
 describe("Test queryBy methods", () => {
   it("should query by role", () => {

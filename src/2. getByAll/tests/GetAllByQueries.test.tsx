@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import GetAllByQueries from "../../src/components/GetAllByQueries";
+import GetAllByQueries from "../components/GetAllByQueries";
 
 describe("InteractiveDisabledComponent", () => {
   it("should render multiple elements that can be queried by various methods", () => {
