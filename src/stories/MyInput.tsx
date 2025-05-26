@@ -1,9 +1,5 @@
 function MyInput(props: any) {
-  return (
-    <div {...props} className={props.className}>
-      Test
-    </div>
-  );
+  return <input {...props} className={props.className} />;
 }
 
 export default MyInput;
