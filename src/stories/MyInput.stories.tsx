@@ -1,7 +1,7 @@
 import MyInput from "./MyInput";
 
 export default {
-  title: "inputs",
+  title: "Inputs/inputs",
   component: MyInput,
 };
 
