@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "test:ui": "vitest --ui",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "buildCss": "style-dictionary build"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.7",
@@ -18,6 +19,7 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-icons": "^5.5.0",
+    "style-dictionary-utils": "^4.0.5",
     "tailwindcss": "^4.1.7"
   },
   "devDependencies": {
@@ -49,6 +51,7 @@
     "msw": "^2.8.4",
     "playwright": "^1.52.0",
     "storybook": "^8.6.14",
+    "style-dictionary": "^5.0.0",
     "typescript": "~5.8.3",
     "typescript-eslint": "^8.30.1",
     "vite": "^6.3.5",
