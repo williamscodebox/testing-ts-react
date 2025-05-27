@@ -11,10 +11,12 @@
     "test:ui": "vitest --ui",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "buildCss": "style-dictionary build"
+    "buildCss": "style-dictionary build",
+    "willy": "node clsx.js"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.7",
+    "clsx": "^2.1.1",
     "jsdom": "^26.1.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
