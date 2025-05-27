@@ -1,9 +1,19 @@
-function App() {
+import Button from "./components/CvaButton";
+
+const App = () => {
   return (
-    <div className="flex h-screen items-center justify-center bg-gray-800 text-2xl text-white font-bold">
-      App
+    <div className="space-y-4">
+      <Button color="primary" size="large">
+        Primary Large Button
+      </Button>
+      <Button color="secondary" size="small">
+        Secondary Small Button
+      </Button>
+      <Button color="primary" state="disabled" size="small">
+        Disabled Button
+      </Button>
     </div>
   );
-}
+};
 
 export default App;
